@@ -1,0 +1,3 @@
+filename = input("WHAT'S THE NAME OF YOUR FILE??? :")
+f_extns = filename.split(".")
+print("THE EXTENSION OF THIS FILE IS: " + repr(f_extns[-1])
